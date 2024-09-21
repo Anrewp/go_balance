@@ -13,6 +13,7 @@ import (
 	"github.com/Anrewp/go_balance/src/service"
 )
 
+// todo
 func main() {
 	db := config.DatabaseConnection()
 	db.Table("users").AutoMigrate(&model.Users{})
